@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+*.keystore
+*.jks
+
+# Generated artifacts
+*.apk
+*.ap_
+*.aab
+app/release/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

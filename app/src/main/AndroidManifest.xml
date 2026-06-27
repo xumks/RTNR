@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="TestApp"
+        android:roundIcon="@drawable/logo"
+        android:theme="@style/Theme.Iflytek"
+        android:supportsRtl="true" >
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".setting.TtsSettings"/>
+        <activity android:name=".setting.IatSettings"/>
+        <activity android:name=".IatDemo"/>
+        <activity android:name=".AsrDemo"/>
+        <activity android:name=".TtsDemo"/>
+        <activity android:name=".OneShotDemo"/>
+        <activity android:name=".WakeDemo"/>
+        <activity android:name=".AsrResultActivity"/>
+
+        <activity android:name=".BirdActivity" />
+    </application>
+
+</manifest>
